@@ -1,0 +1,1 @@
+In React Router Dom v6, when using nested routes with the `useParams` hook, an error might occur if a parent route's parameters are accessed within a child route's component before the parent route's parameters are available. This typically happens when the component renders before the parent route's parameters are resolved by the router.
